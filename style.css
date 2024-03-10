@@ -1,0 +1,240 @@
+﻿body {
+  background: linear-gradient(to top left, #ff7800, #ffd100, #be00ff);
+  background-repeat: no-repeat;
+}
+.container2 {
+  padding: 15px 32px;
+  background-color: #ffd100;
+  font-family: fantasy;
+  font-size: 200%;
+  transition: all 2s;
+  border-radius: 20px;
+  inset: 0;
+}
+.container2:hover {
+  box-shadow: 0px 1px 3px #be00ff, 0px -1px 3px #ff7800;
+  box-sizing: 10px 10px;
+  top: -5px;
+  left: -5px;
+}
+
+.container {
+  color: #C6C6C6;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #5d5d5d;
+  border-radius: 5px;
+  padding: 20px;
+  cursor:text;
+  opacity: 70%;
+
+}
+
+.button1 {
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+.button2 {
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background: linear-gradient(to bottom right, #000000, #4a84b1, #96c7dd);
+  transition: all .1s;
+}
+.button2:active {
+  transform: translateX(-50px);
+}
+
+
+.button3 {
+  background: linear-gradient(to bottom right, #5A39FF, #B039FF, #F939FF);
+  border : 3px;
+  color : #000000;
+  padding: 15px 32px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+}
+.button3:hover {
+  background: linear-gradient(to top left, #5A39FF, #B039FF, #F939FF);
+  box-shadow: rgba(255, 146, 231) 0 15px 100px;
+  transform: translateY(-3px);
+}
+
+
+.button4 {
+  padding: 15px 32px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: 2px solid #04AA6D;
+  transition: all .5s;
+}
+.button4:hover{
+  transform: translateY(-2px);
+}
+
+
+
+.button5 {
+  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+  background-color: #000000;
+  font-size: 15px;
+  border: none;
+}
+
+.button6 {
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+  background-color: white;
+  color : #000000;
+  transition: all .5s;
+}
+.button6:active {
+  border: none;
+  background-color: #000000;
+  color : #FFFFFF;
+}
+.button6:hover {
+  box-shadow: #be00ff 0px 0px 15px;
+}
+
+.deplia {
+  background-color: #FFFFFF;  
+  padding: 15px 30px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border:none;
+  transition: all .5s;
+}
+.deplia:hover {
+  background-color: #000000;
+  box-shadow: 10px 10px 0px #ffffff;
+  top: -5px;
+  left: -5px;
+  color: #ffffff;
+}
+.deplia:active {
+  background-color: #ffffff;
+  color: #000000;
+}
+.deplia:active:hover {
+  box-shadow: 10px 10px 0px #000000;
+}
+
+.button8 {
+  padding: 14px 31px;
+  font-size: 16px;
+  background-color: #B039FF;
+  border: 1px solid #B039FF;
+  color: black;
+  transition: all 1.5s;
+  border-radius: 30em;
+}
+.button8:hover {
+  box-shadow: inset -5em 0 0 0 #ffd100, inset 5em 0 0 0 #ffd100;
+  border: 1px solid #B039FF;
+}
+.button8:active {
+  transition-duration: .1s;
+  color: rgb(0, 0, 0, 0);
+}
+
+.button9 {
+  padding: 15px 20px 15px 20px; /*haut droite bas gauche*/
+  color: #333;
+  background-color:#FFF;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 5px 5px 0.5px #ff7800;
+  transition: all .5s;
+}
+.button9:hover {
+  background-color: #fff;
+  box-shadow: 2px 2px 0.5px #ff4400;
+}
+.button9:active {
+  transition: .1s;
+  box-shadow: 5px 5px 0.5px #ff7800;
+}
+
+.button10 {
+  padding: 15px 17px;
+  border-radius: 50em;
+  background-color: #2a1789;
+  color: #fff;
+  border: none;
+  transition: all .3s;
+}
+.button10:hover {
+  background-color: #fff;
+  color: #2a1789;
+}
+.button10::before {
+  font-size: 20px;
+  content: "→";
+  margin-right: 10px;
+}
+.button10::after {
+  font-size: 20px;
+  content: "←";
+  margin-left: 10px;
+}
+
+
+.button11 {
+  border-style: dotted;
+  padding: 15px 20px;
+  border:1px solid #000;
+  color: #000000;
+  background-color: rgb(0, 0, 0, 0);
+  transition: all 2s;
+  border-radius: 2px;
+}
+.button11:hover {
+  background-color: rgb(0, 255, 200);
+  border-radius: 12px;
+}
+.button11:active {
+  transition-duration: .1s;
+  color: rgba(0,0,0,0);
+}
+
+.button12 {
+  background-color: #ff7800;
+  color:#0241a0;
+  padding: 15px 20px 15px 20px; /*haut droite bas gauche*/
+  transition: all .3s;
+  border-radius: 50em;
+  border: none ;
+}
+.button12:hover {
+  padding: 15px 40px 15px 20px; /*haut droite bas gauche*/
+}
+.button12:active {
+  background: linear-gradient(to right, #ff7800, #ff0000);
+  transition: 1s;
+  padding: 15px 60em 15px 20px; /*haut droite bas gauche*/
+}
